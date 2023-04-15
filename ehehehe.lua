@@ -3,6 +3,7 @@ local Window = Library.CreateLib("TeeGod", "Synapse")
 
 local Tab = Window:NewTab("Main Menu")
 local Section = Tab:NewSection("Pro")
+------Aimbot+esp
 Section:NewButton("Aimbot+ESP", "Aimbot+ESP", function()
     local plrs = game:GetService("Players")
 local TeamBased = true ; local teambasedswitch = "o"
@@ -424,6 +425,7 @@ delay(0, function()
 end)
 warn("loaded")
 end)
+--- Admin
 Section:NewButton("Admin", "Commands", function()
     prefix = ";"
 wait(0.3)
@@ -3623,3 +3625,9 @@ Frame:TweenPosition(UDim2.new(0, 0, 1.5, 0), "Out", "Elastic", 5)
 wait(5.01)
 intro:Destroy()
 end)
+---hitbox expander
+Section:NewButton("Hitbox expander", "uh", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
+    print("Clicked")
+end)
+    
