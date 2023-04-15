@@ -3630,4 +3630,3 @@ Section:NewButton("Hitbox expander", "uh", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
     print("Clicked")
 end)
-    
