@@ -3626,7 +3626,7 @@ wait(5.01)
 intro:Destroy()
 end)
 ---hitbox expander
-Section:NewButton("Hitbox expander", "uh", function()
+Section:NewButton("Hitbox expander", "broken", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
     print("Clicked")
 end)
